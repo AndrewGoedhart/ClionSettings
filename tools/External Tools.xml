@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="format" description="Clang format" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/clang-format-6.0" />
+      <option name="PARAMETERS" value="-style=file -i $FileName$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
