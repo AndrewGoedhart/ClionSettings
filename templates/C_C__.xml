@@ -1,0 +1,8 @@
+<templateSet group="C/C++">
+  <template name="qtDb" value="class $name$ :public Sql::DbSerialisable {&#10;Q_OBJECT&#10;  public:&#10;     $name$(QObject *obj = nullptr): DbSerialisable(obj) {}&#10;     $name$(const $name$ &amp;other) = delete;&#10;     ~$name$() = default;&#10;     &#10;     $name$ &amp;operator=(const $name$ &amp;other) = delete;&#10;};     &#10;     " description="QT class header" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="capitalise(camelCase(fileName()))" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+</templateSet>
