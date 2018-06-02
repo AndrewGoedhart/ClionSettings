@@ -5,4 +5,9 @@
       <option name="OC_DECLARATION_CPP" value="true" />
     </context>
   </template>
+  <template name="qtp" value="  Q_PROPERTY($type$ $name$ READ get$CName$ WRITE set$CName$)" description="qt property" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="complete()" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CName" expression="" defaultValue="capitalize(name)" alwaysStopAt="true" />
+  </template>
 </templateSet>
