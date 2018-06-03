@@ -13,4 +13,11 @@
       <option name="OC_DECLARATION_CPP" value="true" />
     </context>
   </template>
+  <template name="dao" value="#include &lt;dataStore/components/$component$.hpp&gt;&#10;#include &lt;database/dao/dao.hpp&gt;&#10;#include &lt;memory&gt;&#10;&#10;namespace Sql {&#10;  class $Component$Dao : public Dao&lt;Framework::$Component$&gt; {&#10;    using $Component$ = Framework::$Component$  &#10;   public:&#10;    $Component$Dao(DbPtr db);&#10;    ~$Component$Dao() = default;&#10;&#10;    /**&#10;     * @brief Load the current valid $component$ from the db&#10;     * @return&#10;     */&#10;    Dao::ResultSet $component$();&#10;&#10;    /**&#10;     * &#10;     */&#10;    std::shared_ptr&lt;$Component$&gt; getBy();&#10;  };&#10;&#10;&#10;}  &#10;" description="Data access object" toReformat="false" toShortenFQNames="true">
+    <variable name="Component" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="component" expression="" defaultValue="camelCase(Component)" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
 </templateSet>
