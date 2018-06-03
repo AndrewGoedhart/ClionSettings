@@ -9,5 +9,8 @@
     <variable name="type" expression="" defaultValue="complete()" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CName" expression="" defaultValue="capitalize(name)" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
   </template>
 </templateSet>
