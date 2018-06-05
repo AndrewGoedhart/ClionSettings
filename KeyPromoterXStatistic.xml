@@ -62,7 +62,7 @@
           <IdeaActionID>Generate</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Generate...</Description>
-          <Count>4</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
