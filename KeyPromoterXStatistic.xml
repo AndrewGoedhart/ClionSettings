@@ -6,7 +6,7 @@
           <IdeaActionID>Build</IdeaActionID>
           <ShortCut>'Ctrl+F9'</ShortCut>
           <Description>Build</Description>
-          <Count>17</Count>
+          <Count>27</Count>
         </Item>
       </Statistic>
       <Statistic Action="Comment with Block Comment">
@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>47</Count>
+          <Count>56</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -54,7 +54,7 @@
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'Alt+F7'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Generate...">
@@ -62,7 +62,7 @@
           <IdeaActionID>Generate</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Generate...</Description>
-          <Count>6</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
@@ -110,7 +110,7 @@
           <IdeaActionID>SaveAll</IdeaActionID>
           <ShortCut>'Ctrl+S'</ShortCut>
           <Description>Save All</Description>
-          <Count>7</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
@@ -153,6 +153,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Toggle Line Breakpoint">
+        <Item>
+          <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
+          <ShortCut>'Ctrl+F8'</ShortCut>
+          <Description>Toggle Line Breakpoint</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Version Control">
         <Item>
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
@@ -166,7 +174,7 @@
           <IdeaActionID>Tool_External Tools_format</IdeaActionID>
           <ShortCut>'Alt+Shift+F'</ShortCut>
           <Description>format</Description>
-          <Count>4</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
     </option>
