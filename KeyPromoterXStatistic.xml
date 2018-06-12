@@ -41,6 +41,14 @@
           <Count>104</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Definition(s)">
+        <Item>
+          <IdeaActionID>GotoImplementation</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+B' or 'Ctrl+Alt+Button1 Click'</ShortCut>
+          <Description>Definition(s)</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Delete...">
         <Item>
           <IdeaActionID>$Delete</IdeaActionID>
@@ -110,7 +118,7 @@
           <IdeaActionID>ClangFormat.ClangFormatAuto</IdeaActionID>
           <ShortCut>'Alt+F'</ShortCut>
           <Description>Reformat Code with clang-format</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Reload PlantUml Diagrams">
