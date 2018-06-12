@@ -6,7 +6,7 @@
           <IdeaActionID>Build</IdeaActionID>
           <ShortCut>'Ctrl+F9'</ShortCut>
           <Description>Build</Description>
-          <Count>84</Count>
+          <Count>86</Count>
         </Item>
       </Statistic>
       <Statistic Action="Comment with Block Comment">
@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>100</Count>
+          <Count>104</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -70,7 +70,7 @@
           <IdeaActionID>Generate</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Generate...</Description>
-          <Count>14</Count>
+          <Count>19</Count>
         </Item>
       </Statistic>
       <Statistic Action="Method...">
@@ -142,7 +142,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>21</Count>
+          <Count>22</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
