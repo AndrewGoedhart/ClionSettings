@@ -70,7 +70,7 @@
           <IdeaActionID>ExtractMethod</IdeaActionID>
           <ShortCut>'Ctrl+Alt+M'</ShortCut>
           <Description>Method...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
@@ -97,6 +97,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Reformat Code with clang-format">
+        <Item>
+          <IdeaActionID>ClangFormat.ClangFormatAuto</IdeaActionID>
+          <ShortCut>'Alt+F'</ShortCut>
+          <Description>Reformat Code with clang-format</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Reload PlantUml Diagrams">
         <Item>
           <IdeaActionID>PlantUML.Reload</IdeaActionID>
@@ -118,7 +126,7 @@
           <IdeaActionID>SaveAll</IdeaActionID>
           <ShortCut>'Ctrl+S'</ShortCut>
           <Description>Save All</Description>
-          <Count>15</Count>
+          <Count>16</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
