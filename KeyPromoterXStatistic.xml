@@ -102,7 +102,7 @@
           <IdeaActionID>ClangFormat.ClangFormatAuto</IdeaActionID>
           <ShortCut>'Alt+F'</ShortCut>
           <Description>Reformat Code with clang-format</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Reload PlantUml Diagrams">
