@@ -6,7 +6,7 @@
           <IdeaActionID>Build</IdeaActionID>
           <ShortCut>'Ctrl+F9'</ShortCut>
           <Description>Build</Description>
-          <Count>236</Count>
+          <Count>237</Count>
         </Item>
       </Statistic>
       <Statistic Action="Comment with Block Comment">
@@ -86,7 +86,7 @@
           <IdeaActionID>GotoAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+A'</ShortCut>
           <Description>Find Action...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -167,6 +167,14 @@
           <ShortCut>'Shift+F6'</ShortCut>
           <Description>Rename...</Description>
           <Count>35</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Replace...">
+        <Item>
+          <IdeaActionID>Replace</IdeaActionID>
+          <ShortCut>'Ctrl+R'</ShortCut>
+          <Description>Replace...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Build All'">
