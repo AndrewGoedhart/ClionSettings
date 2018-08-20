@@ -46,7 +46,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>400</Count>
+          <Count>401</Count>
         </Item>
       </Statistic>
       <Statistic Action="Definition(s)">
@@ -102,7 +102,7 @@
           <IdeaActionID>Generate</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Generate...</Description>
-          <Count>71</Count>
+          <Count>73</Count>
         </Item>
       </Statistic>
       <Statistic Action="Messages">
