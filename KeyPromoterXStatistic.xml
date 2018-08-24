@@ -46,7 +46,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>424</Count>
+          <Count>428</Count>
         </Item>
       </Statistic>
       <Statistic Action="Definition(s)">
@@ -94,7 +94,7 @@
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'Alt+F7'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>17</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Generate...">
@@ -118,7 +118,7 @@
           <IdeaActionID>ExtractMethod</IdeaActionID>
           <ShortCut>'Ctrl+Alt+M'</ShortCut>
           <Description>Method...</Description>
-          <Count>7</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Scratch File">
