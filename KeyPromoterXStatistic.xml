@@ -97,6 +97,22 @@
           <Count>18</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Find in Path...">
+        <Item>
+          <IdeaActionID>FindInPath</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F'</ShortCut>
+          <Description>Find in Path...</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Find...">
+        <Item>
+          <IdeaActionID>Find</IdeaActionID>
+          <ShortCut>'Ctrl+F' or 'Alt+F3'</ShortCut>
+          <Description>Find...</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Generate...">
         <Item>
           <IdeaActionID>Generate</IdeaActionID>
